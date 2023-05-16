@@ -27,6 +27,7 @@ ul li{
     padding-left: 10px;
 }
 li a{
+    display: inline-block;
     color: black;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -46,4 +47,19 @@ li a{
     width: 35px;
     height: 30px;
     padding-left: 15px;
+}
+.cover{
+    display: flex;
+    margin-bottom: 30px;
+}
+.cover img {
+    width: 100%;
+}
+.picks{
+    text-align: center;
+}
+.picks h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
 }
