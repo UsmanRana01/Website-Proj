@@ -75,7 +75,10 @@ li a {
     font-weight: 700;
     font-size: 40px;
 }
-
+.nav{
+    /* height: 20px; */
+    width: 100%;
+}
 .nav ul {
     text-align: center;
 }
@@ -86,12 +89,19 @@ li a {
     padding-left: 40px;
 }
 
-.five-card {
-    width: 100%;
+.main-card {
+    width: 50%;
+    background-color: antiquewhite;
+    height: 650px;
+    padding-top: 100px;
+    display: inline-block;
+    /* margin: 20px; */
+
 }
 
-.main-card {
-    width:50%;
-    padding-left: 80px; 
-    
+.main-card img {
+    padding-left: 170px;
+} 
+.grid{
+    display: inline-block;
 }
